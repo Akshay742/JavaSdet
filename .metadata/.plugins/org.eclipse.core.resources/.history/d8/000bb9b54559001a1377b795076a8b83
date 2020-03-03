@@ -1,0 +1,23 @@
+package Testng;
+
+import org.testng.annotations.Test;
+
+public class ResearchDemo {
+	@Test
+	public void demo() {
+System.out.println("yogesh");
+}
+	@Test
+	public void demo1() {
+System.out.println("sourav");
+}
+	@Test
+	public void demo2() {
+System.out.println("arun");
+}
+	//@Test
+	//public void demo3() {
+//System.out.println("yakshi");
+//}
+
+}

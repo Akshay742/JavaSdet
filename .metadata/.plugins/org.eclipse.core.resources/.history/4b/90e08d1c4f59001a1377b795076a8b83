@@ -1,0 +1,8 @@
+package com.testbase;
+
+public class Testbase {
+	public static WebDriver driver;
+	public static properties prop;
+	
+
+}

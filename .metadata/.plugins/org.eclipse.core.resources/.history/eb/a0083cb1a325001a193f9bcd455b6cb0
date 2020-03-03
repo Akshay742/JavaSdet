@@ -1,0 +1,16 @@
+package oOPS;
+
+public class ThisDemo {
+	int num1;
+	public void acc(int num1) {
+		this.num1=20;
+		System.out.println(num1);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ThisDemo oo= new ThisDemo();
+		oo.acc(100);
+	}
+
+}

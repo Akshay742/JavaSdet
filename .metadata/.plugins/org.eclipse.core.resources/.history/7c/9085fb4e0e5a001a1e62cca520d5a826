@@ -1,0 +1,13 @@
+package LoginPage;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import com.testbase.Testbase;
+
+public class LoginTest extends Testbase{
+	@FindBy(id="email")
+	WebElement usermail;
+	
+
+}
